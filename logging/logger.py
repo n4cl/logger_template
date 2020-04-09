@@ -30,8 +30,10 @@ def get_logger(module_name, level="DEBUG"):
     handler = StreamHandler()
     formatter = FormatterJSON('%(asctime)s')
     handler.setFormatter(formatter)
-    logger.addHandler(handler)
+    handler.setLevel(level)
     logger.setLevel(level)
+    logger.addHandler(handler)
+    logger.propagate = False
 
     return logger
 
