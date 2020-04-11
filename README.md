@@ -1,4 +1,4 @@
-logger_template
+logging_template
 ===
 
 Python で利用するログ出力するためのテンプレート
