@@ -4,6 +4,8 @@ logger_template
 Python で利用するログ出力するためのテンプレート
 
 - 簡易ログ
-    - [/logzero](/logzero)
+    - [logzero](/logzero)
 - 標準モジュールのみ利用
-    - [/logging](/logging)
+    - [logging](/logging)
+- json ロガー
+    - [jsonlogger](/jsonlogger)
